@@ -1,0 +1,21 @@
+#outer{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:100%;
+    height : auto;
+    margin-top:20PX;
+    margin-bottom:4rem;
+}
+.login{
+width:minmax(200px,600px);
+box-shadow:#4e1111 2px 2px 5px;
+box-shadow:#4e1111 -2px -2px 5px
+}
+
+.button{
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    margin-top:2rem;
+}

@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+}
+
+.unavbar {
+    height: 7rem;
+    background-color: #f2efefdd;
+    position: sticky;
+    position: -webkit-sticky;
+    min-height: 50px;
+    top: 0px;
+}
+
+#slideshow {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-image: url(../image/a9.jpeg);
+    background-position: center;
+    width: 100%;
+    height: auto;
+    position: sticky;
+}
+
+#slideshow p {
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.uproject-name {
+    font-size: 40px;
+    color: blue;
+    font-family: cursive;
+}
+
+#logo:hover {
+    font-size: 40px;
+    color: blue;
+    font-family: cursive;
+}
+
+.nav-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: last baseline;
+    gap: 2rem;
+    height: 50px;
+    width: auto;
+}
+
+.nav-item a:hover {
+    color: blue;
+}
+
+.toggle-click {
+    margin-top: 5px;
+    background-color: rgb(110, 110, 136);
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: black;
+    font-size: 20px;
+    font-weight: bolder;
+    gap: fill;
+}
+
+.footer {
+    height: auto;
+    width: 100%;
+    color: white;
+    bottom: 0;
+    align-self: center;
+    /* display:sticky; */
+    justify-content: space-evenly;
+}
+
+.footer a {
+    color: white;
+    justify-content: space-evenly;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.footer-link-box {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2rem;
+}

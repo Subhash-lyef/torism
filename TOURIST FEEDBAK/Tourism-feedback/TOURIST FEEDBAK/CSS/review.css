@@ -1,0 +1,20 @@
+.outer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+
+}
+
+.inner{
+    /* border:2px solid rgb(91, 89, 89); */
+    background-color:rgb(234, 229, 229);
+    /* min-width:30rem; */
+    max-width:600px;
+    box-shadow: -2px -2px rgb(139, 132, 132);
+   
+}
+
+form{
+    margin-left:2rem;
+}
